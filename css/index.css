@@ -227,14 +227,3 @@ body {
         padding: 0.5rem;
     }
 }
-
-@media (prefers-reduced-motion: reduce) {
-
-    body {
-        animation: none;
-    }
-
-    .topnav a {
-        transition: none;
-    }
-}
