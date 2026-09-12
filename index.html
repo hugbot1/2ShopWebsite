@@ -10,29 +10,31 @@
 
 <body>
     <div class="topnav">
-        <a href="/">2Shop</a>
-        <a href="/install">Install</a>
+        <a href="/" class="ajax-link">2Shop</a>
+        <a href="/install" class="ajax-link">Install</a>
         <a href="https://github.com/hugbot1/2Shop">Github</a>
-        <a href="/progress">Progress</a>
+        <a href="/progress" class="ajax-link">Progress</a>
     </div>
-
-    <div class="hero">
-        <h1>2Shop</h1>
-        <h2>The Wii U/3DS eShop, revived.</h2>
-        <div class="bag">
-            <img src="./assets/eshopbag.png" alt="">
-        </div>
-        <div onclick="window.location = '/install/wiiu';" class="wiiu">
-            <img src="./assets/wiiu.png" alt="">
-            <p>Wii U</p>
-        </div>
-        <div onclick="window.location = '/install/3ds';" class="threeds">
-            <img src="./assets/3ds.png" alt="">
-            <p>3DS</p>
+    <div id="content">
+        <div class="hero">
+            <h1>2Shop</h1>
+            <h2>The Wii U/3DS eShop, revived.</h2>
+            <div class="bag">
+                <img src="./assets/eshopbag.png" alt="">
+            </div>
+            <div class="wiiu">
+                <img src="/assets/wiiu.png" alt="">
+                <p>Wii U</p>
+            </div>
+            <div class="threeds">
+                <img src="/assets/3ds.png" alt="">
+                <p>3DS</p>
+            </div>
         </div>
     </div>
-
-    <script src="./js/index.js"></script>
+    <script src="/js/libs/jquery-4.0.0.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/modules/dispatcher.js"></script>
 </body>
 
 </html>

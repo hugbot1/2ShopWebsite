@@ -1,0 +1,7 @@
+{
+    "/": "/page/home.html",
+    "/install": "/page/install/install.html",
+    "/install/wiiu": "/page/install/wiiu.html",
+    "/install/3ds": "/page/install/3ds.html",
+    "/progress": "/page/progress.html"
+}
