@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $(document).on("click", "a", function (event) {
+    $(document).on("click", "a[data-ajax]", function (event) {
         event.preventDefault();
 
         Dispatcher.navigate($(this).attr("href"));
